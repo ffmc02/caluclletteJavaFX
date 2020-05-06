@@ -5,12 +5,12 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<fx:root id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" type="AnchorPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.afpa.calcullette.Form1Controller">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass"  xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.afpa.calcullette.Form1Controller">
     <stylesheets>
         <URL value="@form1.css" />
     </stylesheets>
    <children>
-      <TextArea fx:id="writetext" layoutX="190.0" layoutY="26.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="89.0" AnchorPane.rightAnchor="322.0" AnchorPane.topAnchor="30.0" />
+      <TextArea fx:id="text" layoutX="190.0" layoutY="26.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="89.0" AnchorPane.rightAnchor="322.0" AnchorPane.topAnchor="30.0" />
       <Button fx:id="Btn1" layoutX="89.0" layoutY="238.0" mnemonicParsing="false" onMousePressed="#Add1" text="1" AnchorPane.leftAnchor="89.0" AnchorPane.rightAnchor="488.0" AnchorPane.topAnchor="238.0" />
       <Button fx:id="btn2" layoutX="130.0" layoutY="238.0" mnemonicParsing="false" onMousePressed="#add2" text="2" />
       <Button fx:id="Btn3" layoutX="171.0" layoutY="238.0" mnemonicParsing="false" onMousePressed="#Add3" text="3" />
@@ -22,7 +22,5 @@
       <Button fx:id="btn0" layoutX="255.0" layoutY="288.0" mnemonicParsing="false" onMousePressed="#add0" text="0" />
       <Button fx:id="btn9" layoutX="215.0" layoutY="288.0" mnemonicParsing="false" onMousePressed="#add9" text="9" />
       <Button fx:id="vider" layoutX="88.0" layoutY="343.0" mnemonicParsing="false" onMousePressed="#clear" text="Viderr" />
-      <Button fx:id="calculle" layoutX="215.0" layoutY="343.0" mnemonicParsing="false" onMousePressed="#Calculle" text="Calculler" />
-      <Button fx:id="close" layoutX="256.0" layoutY="2.0" mnemonicParsing="false" onMousePressed="#closeWindow" text="x" AnchorPane.bottomAnchor="373.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="322.0" AnchorPane.topAnchor="2.0" />
-   </children>
-</fx:root>
+      <Button fx:id="calculle" layoutX="215.0" layoutY="343.0" mnemonicParsing="false" onMousePressed="#Calculle" text="Calculler" /></children>
+</AnchorPane>

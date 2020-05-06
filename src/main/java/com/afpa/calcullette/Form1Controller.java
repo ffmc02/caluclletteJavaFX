@@ -71,68 +71,74 @@ public class Form1Controller implements Initializable {
 
     @FXML
     void Add1() {
-text.appendText("+1");
+text.appendText(" + 1 ");
 result= result + 1;
     }
 
     @FXML
     void Add3() {
-text.appendText("+3");
+text.appendText("+ 3 ");
+result= result + 3;
     }
 
     @FXML
     void Calculle() {
-text.appendText(String.valueOf(result));
+text.appendText(String.valueOf(" = " + result));
     }
 
     @FXML
     void add0() {
-text.appendText("0");
+text.appendText("+ 0 ");
+result= result + 0;
     }
 
     @FXML
     void add2() {
-text.appendText("2");
+text.appendText("+ 2 ");
+result= result + 2;
     }
 
     @FXML
     void add4() {
-text.appendText("4");
+text.appendText("+ 4 ");
+result= result + 4;
     }
 
     @FXML
     void add5() {
-text.appendText("5");
+text.appendText("+ 5 ");
+result= result + 5;
     }
 
     @FXML
     void add6() {
-text.appendText("6");
+text.appendText(" + 6 ");
+result= result + 6;
     }
 
     @FXML
     void add7() {
-text.appendText("7");
+text.appendText(" + 7 ");
+result= result + 7;
     }
 
     @FXML
     void add8() {
-text.appendText("8");
+text.appendText("+ 8 ");
+result= result + 8;
     }
 
     @FXML
     void add9() {
-text.appendText("9");
+text.appendText(" + 9 ");
+result= result + 9;
     }
 
     @FXML
    private void clear() {
        text.clear();
+       result= 0;
     }
 
-    @FXML
-    void closeWindow() {
-
-    }
 
 }
