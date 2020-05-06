@@ -27,6 +27,7 @@ public class Form1Controller implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+    int result=0;
    @FXML
     private TextArea text;
     @FXML
@@ -70,17 +71,18 @@ public class Form1Controller implements Initializable {
 
     @FXML
     void Add1() {
-text.appendText("1");
+text.appendText("+1");
+result= result + 1;
     }
 
     @FXML
     void Add3() {
-text.appendText("3");
+text.appendText("+3");
     }
 
     @FXML
     void Calculle() {
-
+text.appendText(String.valueOf(result));
     }
 
     @FXML
